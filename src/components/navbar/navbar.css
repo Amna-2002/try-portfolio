@@ -1,0 +1,70 @@
+.navbar{
+  background:rgb(193, 180, 203);
+    height: 5rem;
+    width: 100%;
+    margin: 0% auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  
+
+}
+
+.logo {
+  object-fit: cover;
+  width: 80px;
+  height: auto;
+}
+
+.desktopMenuListItem {
+  margin: 1rem;
+  cursor: pointer;
+  
+}
+
+.desktopMenuListItem:hover{
+  color: blueviolet;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid purple;
+
+}
+
+.desktopMenuBtn{
+  background: white;
+  color: rgb(54, 10, 96);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0.75rem  2rem ;
+  border-radius: 10rem;
+
+
+}
+
+
+.desktopMenuImg {
+  object-fit: cover;
+  height: 1rem;
+  width: 20px;
+  margin: 1 rem;
+
+}
+
+.contact{
+
+   width: 5rem;
+  font-size: large;
+  height: 10rem;
+  padding: 1rem, 2rem;
+  
+}
+.active{
+  color: rgb(42, 5, 62);
+  border-bottom: 3px solid rgb(42, 5, 62);
+  padding-bottom: 0.5rem;
+}
